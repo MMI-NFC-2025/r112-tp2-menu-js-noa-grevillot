@@ -1,7 +1,8 @@
+
+
 // nav = document.querySelector("nav.menu");
 
 // nav.setAttribute('aria-hidden', 'false');
-
 
 const toggle = document.querySelector('.menu-btn');
 const nav = document.querySelector('nav.menu');
