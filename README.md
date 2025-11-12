@@ -47,23 +47,20 @@ Exemple de modification :
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # Ouvrir le menu par code JS
 
 **Faire un commit qui** : annule les précedentes modification (le commit précédant)
 
+
+
+
+
+
+
+
 ## Tester dans la console JS du navigateur (inspecter)
+
+<!-- J'ai fait toutes les consignes précédentes -->
 
 ### Afficher le menu
 
@@ -73,6 +70,7 @@ Trouvez l'élément `nav` de classe CSS `menu` :
 
 ```js
 nav = document.querySelector("______");
+nav = document.querySelector("nav.menu")
 ```
 
 Doit afficher dans la console :
@@ -85,6 +83,7 @@ Maintenant changer à `false` l'attribut `"aria-hidden"` de l'élément référe
 
 ```js
 nav.aria______ = ____;
+nav.setAttribute('aria-hidden', 'false');
 ```
 
 La page doit afficher le menu
