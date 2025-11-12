@@ -45,6 +45,20 @@ Exemple de modification :
 
 **Faire un commit** : "Ouverture manuelle du menu par code HTML"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Ouvrir le menu par code JS
 
 **Faire un commit qui** : annule les précedentes modification (le commit précédant)
