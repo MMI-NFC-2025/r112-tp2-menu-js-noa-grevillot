@@ -43,9 +43,26 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 }
 
 .images{
-  width: 25%;       /* réduit la largeur à 25% (hauteur ajustée automatiquement) */
+  width: 25%;     
   height: auto;
-  border-radius: 12px; /* coins arrondis ; augmenter la valeur pour plus d'arrondissement */
+  border-radius: 12px; 
   display: block;
-  object-fit: cover; /* conserve le ratio en recadrant si nécessaire */
+  object-fit: cover; 
+}
+
+.Accueil{
+  display: flex;
+  align-items: center;
+  gap: 2px; 
+
+}
+
+.icones{
+  width: 25%;
+}
+
+.index{
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
